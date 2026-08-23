@@ -49,3 +49,29 @@ Optamos pela estratégia v2 (`--cut_tail`) para os próximos módulos, pois:
 
 ### Próximos passos
 - Módulo 3: alinhar `SRR062634_{1,2}_trimmed_v2.fastq` contra `chr21.fa` com BWA-MEM
+## Módulo 3 — Alinhamento e Processamento de BAM (em andamento, 23/08/2026)
+
+### O que foi feito
+- Alinhamento com BWA-MEM: reads filtradas (v2) contra referência chr21
+- Conversão SAM → BAM, ordenação por posição, indexação
+
+### Nota metodológica importante
+A taxa de mapeamento geral ficou em 27,62% — valor esperado e não indicativo de problema de qualidade.
+
+**Motivo:** a amostra SRR062634 (NA12878) é sequenciamento de genoma completo, mas a
+referência utilizada neste treinamento é apenas o chr21 (escolha deliberada para
+manter os exercícios leves). Como o chr21 representa ~1,5-2% do genoma humano total,
+é matematicamente esperado que a grande maioria das reads (vindas de outros
+cromossomos) não encontre onde mapear nessa referência parcial.
+
+**Validação:** das reads que efetivamente mapearam no chr21, 60,7% estão "properly
+paired" (pareadas corretamente) — consistente com dados de boa qualidade, confirmando
+que a baixa taxa geral é um artefato da referência parcial, não da qualidade do
+sequenciamento ou do processo de alinhamento.
+
+**Em um pipeline de produção real:** a referência seria o genoma completo (todos os
+cromossomos), e a taxa de mapeamento esperada seria >95%.
+
+### Arquivos gerados
+- `results/aligned/SRR062634.sorted.bam` (+ `.bai`) — BAM ordenado e indexado, pronto
+  para chamada de variantes no Módulo 4
