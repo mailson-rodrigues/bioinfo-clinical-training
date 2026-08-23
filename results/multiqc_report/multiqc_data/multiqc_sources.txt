@@ -1,0 +1,6 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	SRR062634	/home/studioev/projetos/bioinfo_estudo/results/trimmed/fastp_report_v2.json
+FastQC	all_sections	SRR062634_1	/home/studioev/projetos/bioinfo_estudo/results/qc/SRR062634_1_fastqc.zip
+FastQC	all_sections	SRR062634_1_trimmed_v2	/home/studioev/projetos/bioinfo_estudo/results/trimmed/SRR062634_1_trimmed_v2_fastqc.zip
+FastQC	all_sections	SRR062634_2	/home/studioev/projetos/bioinfo_estudo/results/qc/SRR062634_2_fastqc.zip
+FastQC	all_sections	SRR062634_2_trimmed_v2	/home/studioev/projetos/bioinfo_estudo/results/trimmed/SRR062634_2_trimmed_v2_fastqc.zip

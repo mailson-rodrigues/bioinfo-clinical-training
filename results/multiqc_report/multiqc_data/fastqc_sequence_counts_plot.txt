@@ -1,0 +1,5 @@
+Sample	Unique Reads	Duplicate Reads
+SRR062634_1	49885.0	115.0
+SRR062634_1_trimmed_v2	49475.0	101.0
+SRR062634_2	49876.0	124.0
+SRR062634_2_trimmed_v2	49443.0	133.0

@@ -1,0 +1,22 @@
+# Dados brutos e intermediários (grandes demais para o GitHub)
+raw_data/*.fastq
+raw_data/*.fastq.gz
+reference/*.fa
+reference/*.fa.gz
+reference/*.fai
+reference/*.amb
+reference/*.ann
+reference/*.bwt
+reference/*.pac
+reference/*.sa
+reference/*.vcf.gz
+results/trimmed/*.fastq
+results/qc/*.zip
+
+# Arquivos temporários
+*.tmp
+igv_log.txt
+
+# Ambiente
+.ipynb_checkpoints/
+__pycache__/
