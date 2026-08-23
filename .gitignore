@@ -20,3 +20,8 @@ igv_log.txt
 # Ambiente
 .ipynb_checkpoints/
 __pycache__/
+
+# Arquivos de alinhamento (grandes demais para o GitHub)
+results/aligned/*.sam
+results/aligned/*.bam
+results/aligned/*.bai
