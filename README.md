@@ -8,7 +8,7 @@ Cada módulo documenta não apenas os comandos executados, mas o **raciocínio p
 
 Biomédico com anos de experiência laboratorial e especialização em Genética e Genômica, atualmente cursando Tecnologia em Inteligência Artificial e Machine Learning. Este repositório documenta minha transição para bioinformática clínica, combinando conhecimento biológico sólido com competência técnica em análise de dados genômicos.
 
-**Contato:** [LinkedIn](https://www.linkedin.com/in/mailson-rodrigues/) · biomedico.mailson@gmail.com
+**Contato:** [LinkedIn](https://www.linkedin.com/in/mailson-rodrigues/)
 
 ## Estrutura do treinamento
 
